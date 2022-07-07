@@ -9,7 +9,7 @@ euroCities.pop();
 euroCities.push('Budapest')
 console.log(euroCities)
 
-var asianCities =  ['Tokyo','Hanoi','Taipei','Hong Kong','Beijing']
+var asianCities =  ["Tokyo","Hanoi","Taipei","Hong Kong","Beijing"]
 console.log(asianCities)
 
 var worldCities = [...euroCities, ...asianCities]
@@ -18,7 +18,7 @@ console.log(worldCities.reverse())
 euroCities.splice(2,1);
 console.log(euroCities);
 
-var removedAsianCities = asianCities.splice(1,3)
+var removedAsianCities = asianCities.splice(2,4)
 
 
 console.log(worldCities)
