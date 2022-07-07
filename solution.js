@@ -13,7 +13,7 @@ var asianCities =  ["Tokyo","Hanoi","Taipei","Hong Kong","Beijing"]
 console.log(asianCities)
 
 var worldCities = [...euroCities, ...asianCities]
-console.log(worldCities.reverse())
+//console.log(worldCities.reverse())
 
 euroCities.splice(2,1);
 console.log(euroCities);
