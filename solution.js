@@ -2,10 +2,10 @@
 var euroCities = ["Paris", "London", "Valletta", "Prague", "Rome"];
 var secondCity = euroCities[1];
 euroCities [0] = 'Berlin';
-console.log(euroCities, 'length is', euroCities.length);
 console.log('euroCIties length is', euroCities.length);
 euroCities.pop();
 euroCities.push('Budapaest')
+console.log(euroCities)
 var asianCities =  ['Tokyo','Hanoi','Taipei','Hong Kong','Beijing']
 var worldCities = [...euroCities, ...asianCities]
 console.log(worldCities.reverse());
